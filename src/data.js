@@ -32,6 +32,15 @@ id: uuidv4(),
 active: false,
 },
 {
+    name: "Cruising",
+    cover: "https://chillhop.com/wp-content/uploads/2021/04/cb0cc6270d7f2e1bb13e44e8832bd5c9b2a61080-1024x1024.jpg",
+    artist: "Evil Needle",
+    audio: "https://mp3.chillhop.com/serve.php/?mp3=17087",
+    color: ["#ED6952", "#E6C175"],
+    id: uuidv4(),
+    active: false,
+    },
+{
 name: "Nightfall",
 cover:
 "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
@@ -61,25 +70,40 @@ color: ["#205950", "#2ab3bf"],
 id: uuidv4(),
 active: false,
 },
-//ADD MORE HERE
 {
-name: "Cruising",
-cover: "https://chillhop.com/wp-content/uploads/2021/04/cb0cc6270d7f2e1bb13e44e8832bd5c9b2a61080-1024x1024.jpg",
-artist: "Evil Needle",
-audio: "https://mp3.chillhop.com/serve.php/?mp3=17087",
-color: ["#ED6952", "#E6C175"],
-id: uuidv4(),
-active: false,
-},
+    name: "Roses n Flames",
+    cover:
+    "https://chillhop.com/wp-content/uploads/2021/02/d12927eedcc2f5afba2ab049a4a1ea46c2266ae3-1024x1024.jpg",
+    artist: "C Y G N",
+    audio: "https://mp3.chillhop.com/serve.php/?mp3=14985",
+    color: ["#E666CA", "#7192CC"],
+    id: uuidv4(),
+    active: false,
+    },
+
+    {
+        name: "1999",
+        cover:
+        "https://chillhop.com/wp-content/uploads/2020/10/efaa848553d09b4d9fc0752844456e41b34de276-1024x1024.jpg",
+        artist: "sadtoi",
+        audio: "https://mp3.chillhop.com/serve.php/?mp3=9454",
+        color: ["#72CDFB", "#4A4F1B"],
+        id: uuidv4(),
+        active: false,
+        },
+
+//ADD MORE HERE
 {
     name: "Low Rider",
     cover: "https://chillhop.com/wp-content/uploads/2021/04/cb0cc6270d7f2e1bb13e44e8832bd5c9b2a61080-1024x1024.jpg",
     artist: "Evil Needle",
     audio: "https://mp3.chillhop.com/serve.php/?mp3=17090",
-    color: ["#ED6952", "#E6C175"],
+    color: ["#ED6952", "#315B5D"],
     id: uuidv4(),
     active: false,
 }
 ];
 }
 export default data;
+
+
